@@ -3,9 +3,9 @@ import java.util.Scanner;
 
 public class Main {
     public static void checkSame(Person person1, Person person2) throws SameNameException {
-        if (person1.getName().equals(person2.getName()))
-            ;
-        throw new SameNameException();
+        if (person1.getName().equals(person2.getName())) {
+            throw new SameNameException();
+        }
     }
 
     public static void main(String[] args) {
@@ -30,7 +30,7 @@ public class Main {
         } catch (InputMismatchException e) {
             System.out.println("I'm afraid that wasn't a number.");
         } catch (SameNameException e) {
-            System.out.println("Those are the same people");
+            System.out.println("Those are the same person");
         } catch (Exception e) {
             System.out.println("Something went wrong :(");
         }
