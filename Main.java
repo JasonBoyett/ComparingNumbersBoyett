@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void checkSame(Person person1, Person person2) throws SameNameException {
-        if (person1.getName().equals(person2.getName())) {
+        if (person1.getName().toUpperCase().equals(person2.getName().toUpperCase())) {
             throw new SameNameException();
         }
     }
