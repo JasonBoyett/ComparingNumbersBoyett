@@ -1,3 +1,8 @@
+/*Jason Boyett - jaboye2448
+     * CIT 4423 01
+     * sept 4 2022
+     * macOS 11
+     */
 import java.util.InputMismatchException;
 import java.util.Scanner;
 

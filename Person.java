@@ -1,3 +1,8 @@
+/*Jason Boyett - jaboye2448
+     * CIT 4423 01
+     * sept 4 2022
+     * macOS 11
+     */
 public class Person {
     private String name;
     private double number;
